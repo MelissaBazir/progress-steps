@@ -55,7 +55,7 @@ body {
     height: 4px;
     width: 0%;
     z-index: -1;
-    transition: .4s ease;
+    transition: 0.4s ease;
 }
 
 .circle {
@@ -68,7 +68,7 @@ body {
     align-items: center;
     justify-content: center;
     border: 3px solid var(--line-border-empty);
-    transition: .4s ease;
+    transition: 0.4s ease;
 }
 
 .circle.active {
@@ -87,6 +87,7 @@ body {
     font-size: 14px;
 }
 
+/* ANIMATION ON CLICK */
 .btn:active {
     transform: scale(0.98);
 }
@@ -99,4 +100,3 @@ body {
     background-color: var(--line-border-empty);
     cursor: not-allowed;
 }
-
